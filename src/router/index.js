@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Welcome from '../views/Welcome.vue'
-import Dashboard from '../views/Dashboard.vue'
 import NotFound from '../views/NotFound.vue'
 
 const routes = [
@@ -19,110 +18,16 @@ const routes = [
     name: 'TestEnvironment',
     component: () => import('../views/Test.vue')
    },
-  {
-    path: '/boot',
-    name: 'Boot',
-    component: () => import('../views/Boot.vue')
-   },
    {
     path: '/node',
     name: 'Node',
     component: () => import('../views/Node.vue')
    },
   {
-    path: '/wallets',
-    name: 'dashboard',
-    component: Dashboard
-  },
-  {
-    path: '/wallets/immediate',
-    name: 'immediate',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "dashboard" */ '../views/immediate/Transactions.vue')
-   },
-   {
-    path: '/wallets/immediate/:id',
-    name: 'immediateTransaction',
-    component: () => import('../views/immediate/Transaction.vue')
-   },
-   {
-    path: '/wallets/immediate/send',
-    name: 'immediateSend',
-    component: () => import('../views/immediate/Send.vue')
-   },
-   {
-    path: '/wallets/immediate/send/transfer',
-    name: 'immediateTransfer',
-    component: () => import('../views/immediate/multi/transfer.vue')
-   },
-   {
-    path: '/wallets/immediate/1of2',
-    name: 'sign1of2',
-    props: true,
-    component: () => import('../views/immediate/multi/sign1.vue')
-   },
-   {
-    path: '/wallets/immediate/2of2',
-    name: 'sign2of2',
-    component: () => import('../views/immediate/multi/sign2.vue')
-   },
-   {
-    path: '/wallets/immediate/1of2success',
-    name: '1of2success',
-    component: () => import('../views/immediate/multi/1of2success.vue')
-   },
-   {
-    path: '/wallets/immediate/1of2shutdown',
-    name: '1of2shutdown',
-    component: () => import('../views/immediate/multi/1of2shutdown.vue')
-   },
-   {
-    path: '/wallets/immediate/2of2success',
-    name: '2of2success',
-    component: () => import('../views/immediate/multi/2of2success.vue')
-   },
-   {
-    path: '/wallets/immediate/broadcast',
-    name: 'immediateBroadcast',
-    component: () => import('../views/immediate/multi/broadcast.vue')
-   },
-   {
-    path: '/wallets/immediate/confirmation',
-    name: 'immediateConfirmation',
-    component: () => import('../views/immediate/multi/confirmation.vue')
-   },
-   {
-    path: '/wallets/immediate/receive',
-    name: 'immediateReceive',
-    component: () => import('../views/immediate/Receive.vue')
-   },
-   {
-    path: '/wallets/delayed/receive',
-    name: 'delayedReceive',
-    component: () => import('../views/delayed/Receive.vue')
-   },
-  {
    path: '/settings',
    name: 'settings',
    component: () => import('../views/Settings.vue')
   },
-  {
-    path: '/pre-setup/1',
-    name: 'Pre-Setup1',
-    component: () => import('../views/pre-setup/1.vue')
-   },
-   {
-    path: '/pre-setup/2',
-    name: 'Pre-Setup2',
-    component: () => import('../views/pre-setup/2.vue')
-   },
-   {
-    path: '/pre-setup/3',
-    name: 'Pre-Setup3',
-    component: () => import('../views/pre-setup/3.vue')
-   },
   {
     path: '/setup/1a',
     name: 'Setup1a',

@@ -26,9 +26,9 @@
 </template>
 
 <script>
-import store from '../store.js'
+// import store from '../store.js'
 import Loader from '@/components/loader'
-const invoke = window.__TAURI__.invoke
+// const invoke = window.__TAURI__.invoke
 
 
 

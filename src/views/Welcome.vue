@@ -30,6 +30,14 @@
 import Loader from '@/components/loader'
 // const invoke = window.__TAURI__.invoke
 
+//TODO we need to check for the key blob
+//if the keyblob does not exist, assume the user needs to flash 3 HWWs
+//we need to generate 3 keypairs, 1 on each HWW
+
+//TODO if keyblob is found, we can assume for now the only function the user needs is to scan an animated QR code containing a psbt from passport mobile
+//we should import and display the PSBT and allow the user to sign it
+//then provide a new animated QR allowing the user to scan the signed PSBT back to the mobile device
+
 
 
 export default {

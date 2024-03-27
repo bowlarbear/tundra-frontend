@@ -1,4 +1,4 @@
-name: Compile passport-vault-frontend CI
+name: Compile tundra-vault-frontend CI
 
 on:
   push:

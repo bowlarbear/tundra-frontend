@@ -1,4 +1,4 @@
-<!-- User will be automatically brought to this screen by a text file present on HW 3 which informs passport-vault to redirect the user to this page (state variable setup2)-->
+<!-- User will be automatically brought to this screen by a text file present on HW 3 which informs tundra-vault to redirect the user to this page (state variable setup2)-->
 
 <template>
 <div v-if="this.loading == true">

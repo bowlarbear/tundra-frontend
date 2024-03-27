@@ -5,14 +5,14 @@
   <div v-else class="login">
     <header>
       <h1>What would you like to do?</h1>
-      <h2>If you are new to passport-vault, click the "Create New Wallet" button below.</h2>
+      <h2>If you are new to tundra-vault, click the "Create New Wallet" button below.</h2>
       <h2>Check the box below if you would like to access other options.</h2>
     </header>
     <div class="form_container">
         <form>
             <div class="checkbox_container">
                 <input type="checkbox" v-model="checkbox" name="checkbox">
-                <label for="checkbox">I already have an passport-vault wallet.</label>
+                <label for="checkbox">I already have an tundra-vault wallet.</label>
             </div>
         </form>
             <div class="btn_container"> 
@@ -46,7 +46,7 @@ export default {
         //check network connection
         invoke('check_network').then((res) => {
           store.commit('setDebug', `network connected: ${res}`)
-          store.commit('setLoadMessage', `Initializing passport-vault...`)
+          store.commit('setLoadMessage', `Initializing tundra-vault...`)
           //init iso and then send user to setup3
           invoke('init_iso').then(()=> {
             store.commit('setDebug', 'ubuntu iso created successfully, sending to setup3')

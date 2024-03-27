@@ -1,5 +1,5 @@
 {
-  "name": "passport-vault-frontend",
+  "name": "tundra-vault-frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {

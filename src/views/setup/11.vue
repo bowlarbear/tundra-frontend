@@ -5,7 +5,7 @@
         <h2>Please power off this machine, insert Hardware Wallet 1 and power it on.</h2>
         <h2>You should automatically boot into the Hardware wallet's internal operating system, however,
            some computers will require you to manually configure the boot order within the BIOS.</h2>
-        <h2>Once you reach the desktop screen, you should navigate to your home directory and double click the "passport-vault" program</h2>
+        <h2>Once you reach the desktop screen, you should navigate to your home directory and double click the "tundra-vault" program</h2>
         <h2>You may close this window.</h2>
            <h2> <a href="#">See here for help.</a></h2>
     </header>   

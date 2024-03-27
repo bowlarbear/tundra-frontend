@@ -31,7 +31,7 @@
     <h2>Would you like to do this now?</h2>
   </header>
     <div class="btn_container"> 
-        <button @click="shutDown()" class="btn">Shutdown passport-vault</Button>
+        <button @click="shutDown()" class="btn">Shutdown tundra-vault</Button>
         <button @click="goBack()" class="btn2">Go Back</Button>
     </div>
 </div>
@@ -45,9 +45,9 @@
 </div>
 
 <div v-else class="page">
-  <h1>Welcome to passport-vault</h1>
+  <h1>Welcome to tundra-vault</h1>
   <h2>You should keep this app running to ensure your Bitcoin Node stays synced.</h2>
-  <h2>Always ensure you properly shutdown passport-vault before turning off this computer.</h2>
+  <h2>Always ensure you properly shutdown tundra-vault before turning off this computer.</h2>
   <h2>Please avoid clicking the "X" Button to close the app.</h2>
   <h2>What would you like to do?</h2>
   <div class="btn_container"> 

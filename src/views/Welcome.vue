@@ -5,7 +5,7 @@
 
 <div v-else>
   <header>
-      <h1>Welcome to Passport Vault</h1>
+      <h1>Welcome to Tundra Vault</h1>
       <h2>H2 Placeholder</h2>
       <!-- <h4 v-if="this.conditionalError == true">* conditional error placeholder</h4> -->
     </header>
@@ -34,7 +34,7 @@ import Loader from '@/components/loader'
 //if the keyblob does not exist, assume the user needs to flash 3 HWWs
 //we need to generate 3 keypairs, 1 on each HWW
 
-//TODO if keyblob is found, we can assume for now the only function the user needs is to scan an animated QR code containing a psbt from passport mobile
+//TODO if keyblob is found, we can assume for now the only function the user needs is to scan an animated QR code containing a psbt from tundra mobile
 //we should import and display the PSBT and allow the user to sign it
 //then provide a new animated QR allowing the user to scan the signed PSBT back to the mobile device
 

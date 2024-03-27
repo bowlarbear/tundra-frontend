@@ -1,7 +1,7 @@
-# passport-vault-frontend
+# tundra-vault-frontend
 
-### Warning: This program is a front end wrapper and is only intended to be run when compiled within the passport-vault backend.
-### Main Repo: https:://github.com/bowlarbear/passport-vault
+### Warning: This program is a front end wrapper and is only intended to be run when compiled within the tundra-vault backend.
+### Main Repo: https:://github.com/bowlarbear/tundra-vault
 
 ## Install Vue
 ```

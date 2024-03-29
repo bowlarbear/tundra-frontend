@@ -1,7 +1,7 @@
-# tundra-vault-frontend
+# tundra-frontend
 
-### Warning: This program is a front end wrapper and is only intended to be run when compiled within the tundra-vault backend.
-### Main Repo: https:://github.com/bowlarbear/tundra-vault
+### Warning: This program is a front end wrapper and is only intended to be run when compiled within the tundra backend.
+### Main Repo: https:://github.com/bowlarbear/tundra
 
 ## Install Vue
 ```

@@ -45,7 +45,7 @@ export default {
         //check network connection
         invoke('check_network').then((res) => {
           store.commit('setDebug', `network connected: ${res}`)
-          store.commit('setLoadMessage', `Initializing tundra-vault...`)
+          store.commit('setLoadMessage', `Initializing tundra...`)
           this.$router.push({ name:'Setup1c' })
         }).catch((e) => {
           store.commit('setDebug', `Error No network connection found Error code: Setup1b-1 Response:: ${e}`)
@@ -68,7 +68,7 @@ export default {
       if(res.includes("SUCCESS networking is already enabled")){
         this.loading = true
         store.commit('setDebug', `network connected: ${res}`)
-        store.commit('setLoadMessage', `Initializing tundra-vault...`)
+        store.commit('setLoadMessage', `Initializing tundra...`)
         this.$router.push({ name:'Setup1c' })
         }
       })

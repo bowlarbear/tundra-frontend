@@ -7,7 +7,7 @@
         <h2 v-for="item in this.debug" :key="item">{{item}}</h2>
     <div class="btn_container"> 
 
-        <h2>tundra-vault Version: 0.1224</h2>
+        <h2>tundra Version: 0.1224</h2>
 
         <h2>Current Route: {{this.$route.name}}</h2>
 

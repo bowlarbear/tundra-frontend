@@ -1,4 +1,4 @@
-<!-- User will be automatically brought to this screen by a text file present on HW 1 which informs tundra-vault to redirect the user to this page (state variable setup1)-->
+<!-- User will be automatically brought to this screen by a text file present on HW 1 which informs tundra to redirect the user to this page (state variable setup1)-->
 
 <template>
 <div v-if="this.loading == true">
